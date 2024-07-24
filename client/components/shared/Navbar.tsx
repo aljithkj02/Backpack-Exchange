@@ -43,17 +43,17 @@ export const Navbar = () => {
             </div>
 
             <div className="flex gap-5">
-                <Button
-                    className="bg-green-600 text-green-400 bg-opacity-30 text-[15px] px-[12px] transition-all duration-200 hover:text-green-500"
+                <button
+                    className="bg-green-600 text-green-500 bg-opacity-30 text-[15px] px-3 rounded-md py-1 transition-all duration-200 hover:text-green-600"
                 >
                     Sign up
-                </Button>
+                </button>
 
-                <Button
-                    className="bg-blue-600 text-blue-400 bg-opacity-30 text-[15px] px-[12px] transition-all duration-200 hover:text-blue-500"
+                <button
+                    className="bg-blue-600 text-blue-500 bg-opacity-30 text-[15px] px-3 rounded-md py-1 transition-all duration-200 hover:text-blue-600"
                 >
                     Sign in
-                </Button>
+                </button>
             </div>
         </div>
     )

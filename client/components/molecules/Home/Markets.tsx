@@ -1,9 +1,11 @@
+import { Button } from '@/components/atoms/Button'
 import { marketData } from '@/constants'
 import React from 'react'
+import { TableData } from './TableData'
 
 export const Markets = () => {
     return (
-        <div>
+        <div className='pb-10'>
             <p className='text-white text-3xl font-semibold'>
                 Markets
             </p>
@@ -95,6 +97,16 @@ export const Markets = () => {
                         }
                     </div>
                 </div>
+            </div>
+
+            <div>
+                <Button
+                    className='py-1 px-3 bg-blue-600 text-blue-500 bg-opacity-30 hover:text-blue-600 duration-200 transition-all'
+                >
+                    All
+                </Button>
+
+                <TableData />
             </div>
         </div>
     )

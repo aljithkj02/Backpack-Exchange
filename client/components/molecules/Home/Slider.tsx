@@ -1,6 +1,5 @@
 "use client"
 import { LeftArrow, RightArrow } from "@/assets"
-import { Button } from "@/components/atoms/Button";
 import { useEffect, useState } from "react";
 
 const slides = [
@@ -39,22 +38,22 @@ export const Slider = () => {
   
     return (
         <div className="relative w-full overflow-hidden">   
-            <div className="flex transition-transform duration-700 ease-in-out" 
-                style={{ transform: `translateX(-${currentSlide * 104.2}%)`}}
+            <div className="flex transition-transform duration-700 ease-in-out w-full" 
+                style={{ transform: `translateX(-${currentSlide * 100}%)`}}
             >  
                 {slides.map((slide, index) => (  
-                    <div key={index} className="flex-shrink-0 relative">   
+                    <div key={index} className="flex-shrink-0 relative w-full">   
                         <img src={slide.image} alt={slide.caption} className="w-full object-cover" />  
 
                         <div className="absolute top-1/2 left-14">
                             <p className="text-white font-semibold text-[46px]">{ slide.title }</p>
                             <p className="text-lg text-gray-300"> { slide.desc } </p>
 
-                            <Button 
+                            <button 
                                 className="mt-4 bg-white text-black rounded-xl px-5 font-semibold py-3"
                             >
                                 {slide.btn}
-                            </Button>
+                            </button>
                         </div>
                     </div>  
                 ))}  

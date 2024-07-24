@@ -77,5 +77,40 @@ export const marketData = {
             percent: "6.16",
             positive: true
         },
+    ],
+    tableData: [
+        {
+            id: 1,
+            name: "Bitcoin",
+            tag: "BTC",
+            img: "https://backpack.exchange/_next/image?url=%2Fcoins%2Fbtc.png&w=96&q=95",
+            price: "66,393.80",
+            marketCap: "1.3T",
+            volume24h: "757.2K",
+            change24h: "0.72 %",
+            positive: false,
+        },
+        {
+            id: 2,
+            name: "Ethereum",
+            tag: "ETH",
+            img: "https://backpack.exchange/_next/image?url=%2Fcoins%2Feth.png&w=96&q=95",
+            price: "3,458.47",
+            marketCap: "416B",
+            volume24h: "422.3K",
+            change24h: "1.89 %",
+            positive: false,
+        },
+        {
+            id: 3,
+            name: "Solana",
+            tag: "SL",
+            img: "https://backpack.exchange/_next/image?url=%2Fcoins%2Fsol.png&w=96&q=95",
+            price: "176.62",
+            marketCap: "82B",
+            volume24h: "5.3M",
+            change24h: "0.81 %",
+            positive: true,
+        },
     ]
 }
