@@ -9,7 +9,7 @@ export const Navbar = () => {
     const pathname = usePathname();
 
     return (
-        <div className="bg-black px-5 py-3 flex justify-between items-center">
+        <div className="bg-black px-5 py-3 flex justify-between items-center fixed w-full z-50">
             <div className="flex items-center gap-12">
                 <div className="flex items-center gap-2">
                     <Logo />
