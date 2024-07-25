@@ -5,7 +5,7 @@ import { KLine } from "@/utils/types";
 import { useEffect, useRef } from "react"
 
 const generateNumber = () => {
-    return Math.floor(Math.random() * (50) + 3200); 
+    return Math.floor(Math.random() * (3) + 170); 
 }
 let i = 1;
 

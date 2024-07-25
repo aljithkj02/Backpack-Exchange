@@ -18,7 +18,7 @@ export const Navbar = () => {
 
                 <div className="flex gap-10 items-center">
                     <Link href="/"
-                        className={`font-[600] text-[15px] transition-all duration-200 ${pathname === "/" ? 'text-white hover:text-gray-200' : 'text-gray-400'}`}
+                        className={`font-[600] text-[15px] transition-all duration-200 ${pathname === "/" ? 'text-white hover:text-gray-200' : 'text-gray-400 hover:text-gray-500'}`}
                     >
                         Markets
                     </Link>
